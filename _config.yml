@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   This blog provides step-by-step guides on mapping legacy events to modern async/await patterns, 
   and discussing each statement type and how to convert it. 
   If you're modernizing a monolith for a cloud-native world, you're in the right place.
-baseurl: "/LegacyAdventures" # the subpath of your site, e.g. /blog
-url: "https://ghost347.github.io/LegacyAdventures/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /LegacyAdventures # the subpath of your site, e.g. /blog
+url: https://ghost347.github.io/LegacyAdventures/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  Ghost347
 
