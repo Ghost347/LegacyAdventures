@@ -18,21 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Blog about upgrading legacy code to the latest
+email: charlielogin1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  From Spaghetti code to SOLID principles. 
+  We specialize in the technical nuances of translating VB6 and VB.NET into C#. 
+  This blog provides step-by-step guides on mapping legacy events to modern async/await patterns, 
+  and discussing each statement type and how to convert it. 
+  If you're modernizing a monolith for a cloud-native world, you're in the right place.
+baseurl: "/LegacyAdventures" # the subpath of your site, e.g. /blog
+url: "https://ghost347.github.io/LegacyAdventures/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  Ghost347
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/modernist@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
